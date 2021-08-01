@@ -9,7 +9,7 @@
 @Html.DisplayNameFor(model => model.StylistName): @Html.DisplayFor(model => model.StylistName)
 @using (Html.BeginForm())
 {
-  @Html.Hidden("ident", "model.StylistId")
+  @Html.Hidden("id", "model.StylistId")
   <input type="submit" value="Delete" />
 }
 @Html.ActionLink("Back to List", "Index")

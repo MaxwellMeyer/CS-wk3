@@ -60,13 +60,12 @@ namespace HairSalon.Controllers
     }
 
     [HttpPost, ActionName("Delete")]
-    public ActionResult DeleteConfirmed(int ident)
+    public ActionResult DeleteConfirmed(int id)
     {
-      Stylist thisStylist = _db.Stylists.FirstOrDefault(Stylist => Stylist.StylistId == ident);
+      Stylist thisStylist = _db.Stylists.FirstOrDefault(Stylist => Stylist.StylistId == id);
       _db.Stylists.Remove(thisStylist);
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
-
   }
 }
