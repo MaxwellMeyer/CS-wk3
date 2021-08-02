@@ -2,6 +2,8 @@
 
 #### Written by Maxwell Meyer
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## Description
 
 A website built to demonstrate the use of MS Entity Framework Core for building a MySQL database. The user can add and view a list of Stylists, and Clients related to those Stylists.
@@ -58,6 +60,8 @@ This project was built using:
 7. In the HairSalon directory, run the terminal command `dotnet restore`
 
 8. Run `dotnet watch run` to run the application on your browser's local server at `http://localhost:5000`
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## License Information
 
